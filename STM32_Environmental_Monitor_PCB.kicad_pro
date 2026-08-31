@@ -422,11 +422,22 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "STM32_Environmental_Monitor_PCB.kicad_sch",
+        "name": "STM32_Environmental_Monitor_PCB",
+        "uuid": "d4ef6bde-17f1-4366-905b-27d8c98e00fa"
+      }
+    ],
+    "used_designators": "U1-5,#PWR1-15,C1-2,#FLG1,R1-13,SW1,Q1-4",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d4ef6bde-17f1-4366-905b-27d8c98e00fa",
+      "STM32_Environmental_Monitor_PCB"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
