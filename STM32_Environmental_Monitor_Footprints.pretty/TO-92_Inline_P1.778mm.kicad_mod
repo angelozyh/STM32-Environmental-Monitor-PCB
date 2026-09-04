@@ -6,9 +6,9 @@
 	(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 	(property "Reference" "REF**"
-		(at 1.27 -3.56 0)
+		(at 1.27 -3.81 0)
 		(layer "F.SilkS")
-		(uuid "e273a878-6260-4b72-b6d5-6656812c9abe")
+		(uuid "91f97d66-2896-4b27-a490-f27087676be8")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "TO-92_Inline_P1.778mm"
 		(at 1.27 2.79 0)
 		(layer "F.Fab")
-		(uuid "fe50c156-95bb-476a-af3f-2eff128a934e")
+		(uuid "1387c9d7-80d5-41ff-95f8-6712672b0fa5")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "daff0062-e61b-4149-aecc-a2649e02627e")
+		(uuid "7dc6bfaa-95c8-4c1a-8530-72e81a8845d4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "43847c2b-f946-4d05-b4f1-c37fdd7eeafd")
+		(uuid "81f57499-615b-43a6-9bce-db33115e1bdc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,76 +56,76 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.53 1.85)
-		(end 3.07 1.85)
+		(start -0.635 2.032)
+		(end 3.175 2.032)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9386b420-724a-48e1-a23c-af649a53c974")
+		(uuid "fc876991-a3a1-41e1-bc8b-4e07a1a8e24d")
 	)
 	(fp_arc
-		(start -0.568478 1.838478)
-		(mid -1.132087 -0.994977)
-		(end 1.27 -2.6)
+		(start -0.705656 1.975656)
+		(mid -1.311319 -1.069217)
+		(end 1.27 -2.794)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "45334ff3-2be2-4ea0-b851-421e9a2e863c")
+		(uuid "e219ea9d-aa6a-415b-97ee-dad6075428b1")
 	)
 	(fp_arc
-		(start 1.27 -2.6)
-		(mid 3.672087 -0.994977)
-		(end 3.108478 1.838478)
+		(start 1.27 -2.794)
+		(mid 3.851319 -1.069218)
+		(end 3.245656 1.975656)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4f3786c4-7f49-4f2c-af91-1bd1eef67f8a")
+		(uuid "27aab660-a1b6-46c4-83f4-d85dbbf25d27")
 	)
 	(fp_line
-		(start -1.46 -2.73)
-		(end -1.46 2.01)
+		(start -1.778 -3.048)
+		(end -1.778 2.286)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9251bc18-3fb9-45cb-8873-d24967357f43")
+		(uuid "a7db1288-67c8-4b9a-b3db-7571b7b3cef3")
 	)
 	(fp_line
-		(start -1.46 -2.73)
-		(end 4 -2.73)
+		(start -1.778 -3.048)
+		(end 4.318 -3.048)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7ae8c435-deab-4ea3-a7c2-70cce51482c8")
+		(uuid "05f5e796-2f37-4162-a6cb-ff221c0a12a4")
 	)
 	(fp_line
-		(start 4 2.01)
-		(end -1.46 2.01)
+		(start 4.318 2.286)
+		(end -1.778 2.286)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fa50628e-21f9-45ce-ab9e-ccbe196d5fab")
+		(uuid "31cc2a61-1a7f-43a7-a285-d9159d233688")
 	)
 	(fp_line
-		(start 4 2.01)
-		(end 4 -2.73)
+		(start 4.318 2.286)
+		(end 4.318 -3.048)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a5d89d05-fd2f-4059-ad0c-e10ae9e3a753")
+		(uuid "3a087014-7243-4c13-b149-71dc90e2610f")
 	)
 	(fp_line
 		(start -0.5 1.75)
@@ -135,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "556eb350-b6a7-4988-ac05-cf42608534c0")
+		(uuid "ae663808-9252-44c4-b033-9ae1a39ee689")
 	)
 	(fp_arc
 		(start -0.483625 1.753625)
@@ -146,7 +146,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c570631f-f1a8-4f57-98d9-7564429664f0")
+		(uuid "e67c1a07-d3eb-41f7-bd0c-4f74556cda7f")
 	)
 	(fp_arc
 		(start 1.27 -2.48)
@@ -157,12 +157,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4a77a86a-eccf-4154-acf2-e021ea959a89")
+		(uuid "06b26d01-9e54-4758-bc8b-ecbaa6e589ba")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 1.27 0 0)
 		(layer "F.Fab")
-		(uuid "3ba9f710-f2e0-4e2e-ab91-bad436d49f2b")
+		(uuid "940f2a2d-a2b1-4c0f-a368-b4dcb50edf0f")
 		(effects
 			(font
 				(size 1 1)
@@ -176,7 +176,7 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "231da6aa-4220-47ca-855a-41c7b3634ec5")
+		(uuid "edc3dc95-fc88-40df-8132-a35d8f29b65e")
 	)
 	(pad "2" thru_hole oval
 		(at 1.27 0)
@@ -184,7 +184,7 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "31db9a49-8fde-4775-90fa-26ed92c093ab")
+		(uuid "5ac3594a-2132-4064-891a-f6337c421a72")
 	)
 	(pad "3" thru_hole oval
 		(at 3.048 0)
@@ -192,7 +192,7 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6b261705-e87c-4a75-8c84-8929fe547491")
+		(uuid "97b59b03-18b5-4e92-8805-3a48261ca302")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"

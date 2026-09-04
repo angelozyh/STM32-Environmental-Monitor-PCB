@@ -668,7 +668,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q3"
-			(at 1.27 -3.56 0)
+			(at 1.27 -3.8 0)
 			(layer "F.SilkS")
 			(uuid "1502f590-742c-437d-a978-71e507ffe0e1")
 			(effects
@@ -757,17 +757,11 @@
 		(path "/587f9efe-fdb5-4a53-b1a2-10450133f7b3")
 		(sheetname "/")
 		(sheetfile "STM32_Environmental_Monitor_PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.53 1.85)
-			(end 3.07 1.85)
+			(start -0.635 2.032)
+			(end 3.175 2.032)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -776,20 +770,9 @@
 			(uuid "a5ca406f-1862-4123-bea3-b0413a638799")
 		)
 		(fp_arc
-			(start -0.568478 1.838478)
-			(mid -1.132087 -0.994977)
-			(end 1.27 -2.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c1ec1004-2193-493d-9579-65756fabbbaf")
-		)
-		(fp_arc
-			(start 1.27 -2.6)
-			(mid 3.672087 -0.994977)
-			(end 3.108478 1.838478)
+			(start -0.705656 1.975656)
+			(mid -1.311319 -1.069217)
+			(end 1.27 -2.794)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -797,29 +780,20 @@
 			(layer "F.SilkS")
 			(uuid "356f753f-a01c-409d-b434-5a727fb5c577")
 		)
-		(fp_line
-			(start -1.46 -2.73)
-			(end -1.46 2.01)
+		(fp_arc
+			(start 1.27 -2.794)
+			(mid 3.851319 -1.069218)
+			(end 3.245656 1.975656)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "ccc07555-d448-4d45-9a3b-f718462fd556")
+			(layer "F.SilkS")
+			(uuid "c1ec1004-2193-493d-9579-65756fabbbaf")
 		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end 4 -2.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "32763ffa-3c12-472b-b211-18f8c0fc1795")
-		)
-		(fp_line
-			(start 4 2.01)
-			(end -1.46 2.01)
+			(start -1.778 -3.048)
+			(end -1.778 2.286)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -828,14 +802,34 @@
 			(uuid "37c1e7c8-d685-44fa-9888-7666a6a04abe")
 		)
 		(fp_line
-			(start 4 2.01)
-			(end 4 -2.73)
+			(start -1.778 -3.048)
+			(end 4.318 -3.048)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "32763ffa-3c12-472b-b211-18f8c0fc1795")
+		)
+		(fp_line
+			(start 4.318 2.01)
+			(end 4.318 -3.048)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
 			(uuid "f0cb5369-b472-4d82-8070-0c341fcb152a")
+		)
+		(fp_line
+			(start 4.318 2.286)
+			(end -1.778 2.286)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ccc07555-d448-4d45-9a3b-f718462fd556")
 		)
 		(fp_line
 			(start -0.5 1.75)
@@ -2732,7 +2726,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 1.27 -3.56 0)
+			(at 1.27 -3.8 0)
 			(layer "F.SilkS")
 			(uuid "225357b1-7f4e-4210-8309-7a08180b2b61")
 			(effects
@@ -2821,17 +2815,11 @@
 		(path "/4fde4cff-c447-4ce6-b816-f2dbdf6ee56a")
 		(sheetname "/")
 		(sheetfile "STM32_Environmental_Monitor_PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.53 1.85)
-			(end 3.07 1.85)
+			(start -0.635 2.032)
+			(end 3.175 2.032)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2840,9 +2828,9 @@
 			(uuid "bb5b33ba-0a9f-49fe-bd7a-58690c2776e5")
 		)
 		(fp_arc
-			(start -0.568478 1.838478)
-			(mid -1.132087 -0.994977)
-			(end 1.27 -2.6)
+			(start -0.705656 1.975656)
+			(mid -1.311319 -1.069217)
+			(end 1.27 -2.794)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2851,9 +2839,9 @@
 			(uuid "0ee4fad3-1c42-4c8d-8a62-594bc55951fd")
 		)
 		(fp_arc
-			(start 1.27 -2.6)
-			(mid 3.672087 -0.994977)
-			(end 3.108478 1.838478)
+			(start 1.27 -2.794)
+			(mid 3.851319 -1.069218)
+			(end 3.245656 1.975656)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2862,18 +2850,18 @@
 			(uuid "64295d2a-2798-45af-b8d5-06b93459ddaa")
 		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end -1.46 2.01)
+			(start -1.778 -3.048)
+			(end -1.778 2.286)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "30b89177-cad0-4fe9-923c-a47410f94af5")
+			(uuid "beec31cd-5ff6-41c0-b80e-437e0027b500")
 		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end 4 -2.73)
+			(start -1.778 -3.048)
+			(end 4.318 -3.048)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2882,24 +2870,24 @@
 			(uuid "79d1eca3-b675-4a17-9fb6-e0e72eb3a290")
 		)
 		(fp_line
-			(start 4 2.01)
-			(end -1.46 2.01)
+			(start 4.318 2.01)
+			(end 4.318 -3.048)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "30b89177-cad0-4fe9-923c-a47410f94af5")
+		)
+		(fp_line
+			(start 4.318 2.286)
+			(end -1.778 2.286)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
 			(uuid "450fd4f0-38d4-4fdd-9254-c917e17bae3b")
-		)
-		(fp_line
-			(start 4 2.01)
-			(end 4 -2.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "beec31cd-5ff6-41c0-b80e-437e0027b500")
 		)
 		(fp_line
 			(start -0.5 1.75)
@@ -4004,6 +3992,12 @@
 		(path "/4588bcdc-7671-48e1-90cc-0c4b8f39c05f")
 		(sheetname "/")
 		(sheetfile "STM32_Environmental_Monitor_PCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "5" "4" "3" "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5634,9 +5628,9 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 0)
+			(at 1.27 -3.8 0)
 			(layer "F.SilkS")
-			(uuid "55205e17-ca99-4aeb-970c-c43b6863eedc")
+			(uuid "d5996129-15e9-4d16-90c5-f338845f7ab7")
 			(effects
 				(font
 					(size 1 1)
@@ -5647,7 +5641,7 @@
 		(property "Value" "Q_NPN_EBC"
 			(at 1.27 2.79 0)
 			(layer "F.Fab")
-			(uuid "8428a443-91ff-4a53-ba6b-51b5ace69e95")
+			(uuid "f48a0d87-08d9-49c0-bb84-c7e394d647e5")
 			(effects
 				(font
 					(size 1 1)
@@ -5660,7 +5654,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91df0891-25c6-4f1d-bed2-75acff86dfba")
+			(uuid "14a37a10-2290-4436-b768-9897722995f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +5667,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a354c01-1405-481a-b7b0-def2bd3f78c7")
+			(uuid "cf244582-684a-4359-aa49-6089a6612adf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,17 +5717,11 @@
 		(path "/c6a58235-7eaa-464a-a146-1510eae659df")
 		(sheetname "/")
 		(sheetfile "STM32_Environmental_Monitor_PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.53 1.85)
-			(end 3.07 1.85)
+			(start -0.635 2.032)
+			(end 3.175 2.032)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5742,20 +5730,9 @@
 			(uuid "df6ee28b-5524-4e0d-8647-dd3cdfb71a43")
 		)
 		(fp_arc
-			(start -0.568478 1.838478)
-			(mid -1.132087 -0.994977)
-			(end 1.27 -2.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "732cf0f8-01e5-40df-8095-221a0209d1d9")
-		)
-		(fp_arc
-			(start 1.27 -2.6)
-			(mid 3.672087 -0.994977)
-			(end 3.108478 1.838478)
+			(start -0.705656 1.975656)
+			(mid -1.311319 -1.069217)
+			(end 1.27 -2.794)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5763,9 +5740,20 @@
 			(layer "F.SilkS")
 			(uuid "c454fc28-f6d4-4887-8af8-e8b5b6ab4b01")
 		)
+		(fp_arc
+			(start 1.27 -2.794)
+			(mid 3.851319 -1.069218)
+			(end 3.245656 1.975656)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "732cf0f8-01e5-40df-8095-221a0209d1d9")
+		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end -1.46 2.01)
+			(start -1.778 -3.048)
+			(end -1.778 2.286)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5774,18 +5762,18 @@
 			(uuid "fdae1694-a810-43df-af8c-927f144ffed0")
 		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end 4 -2.73)
+			(start -1.778 -3.048)
+			(end 4.318 -3.048)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e2f53e0c-be56-4723-8d17-c035b465d96c")
+			(uuid "4b0e2e61-3e96-4379-b122-f35c2e2bffcc")
 		)
 		(fp_line
-			(start 4 2.01)
-			(end -1.46 2.01)
+			(start 4.318 2.01)
+			(end 4.318 -3.048)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5794,14 +5782,14 @@
 			(uuid "035dd13c-7daf-41ae-a8ed-69cdf106963d")
 		)
 		(fp_line
-			(start 4 2.01)
-			(end 4 -2.73)
+			(start 4.318 2.286)
+			(end -1.778 2.286)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4b0e2e61-3e96-4379-b122-f35c2e2bffcc")
+			(uuid "e2f53e0c-be56-4723-8d17-c035b465d96c")
 		)
 		(fp_line
 			(start -0.5 1.75)
@@ -6294,7 +6282,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q4"
-			(at 1.27 -3.56 0)
+			(at 1.27 -3.76 0)
 			(layer "F.SilkS")
 			(uuid "8fcf5f96-0c66-4471-8682-e3a1f6781243")
 			(effects
@@ -6383,17 +6371,11 @@
 		(path "/6715d662-46fb-49bc-9a68-88b41f8cb9c9")
 		(sheetname "/")
 		(sheetfile "STM32_Environmental_Monitor_PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.53 1.85)
-			(end 3.07 1.85)
+			(start -0.635 2.032)
+			(end 3.175 2.032)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6402,20 +6384,9 @@
 			(uuid "9761d482-5d67-4761-8cee-1b98933c7004")
 		)
 		(fp_arc
-			(start -0.568478 1.838478)
-			(mid -1.132087 -0.994977)
-			(end 1.27 -2.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fa03d42c-2196-4837-9d4e-c21b7838498f")
-		)
-		(fp_arc
-			(start 1.27 -2.6)
-			(mid 3.672087 -0.994977)
-			(end 3.108478 1.838478)
+			(start -0.705656 1.975656)
+			(mid -1.311319 -1.069217)
+			(end 1.27 -2.794)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6423,9 +6394,20 @@
 			(layer "F.SilkS")
 			(uuid "61e16c9b-4939-44d7-8ac5-f0c9221d4033")
 		)
+		(fp_arc
+			(start 1.27 -2.794)
+			(mid 3.851319 -1.069218)
+			(end 3.245656 1.975656)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fa03d42c-2196-4837-9d4e-c21b7838498f")
+		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end -1.46 2.01)
+			(start -1.778 -3.048)
+			(end -1.778 2.286)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6434,8 +6416,8 @@
 			(uuid "99e50eae-25a1-4296-88bb-dd2fb019a2c0")
 		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end 4 -2.73)
+			(start -1.778 -3.048)
+			(end 4.318 -3.048)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6444,8 +6426,8 @@
 			(uuid "6aa070fa-09b6-47bf-b7b9-b4d0c470deb7")
 		)
 		(fp_line
-			(start 4 2.01)
-			(end -1.46 2.01)
+			(start 4.318 2.01)
+			(end 4.318 -3.048)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6454,8 +6436,8 @@
 			(uuid "bcaeee85-6ebc-46de-849d-f2f30e146b1d")
 		)
 		(fp_line
-			(start 4 2.01)
-			(end 4 -2.73)
+			(start 4.318 2.286)
+			(end -1.778 2.286)
 			(stroke
 				(width 0.05)
 				(type solid)
