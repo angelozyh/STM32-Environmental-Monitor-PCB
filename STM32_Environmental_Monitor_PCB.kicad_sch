@@ -5405,7 +5405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "STM32_Environmental_Monitor_Footprints:TO-92_Inline_P1.778mm"
 			(at 219.71 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5602,7 +5602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "STM32_Environmental_Monitor_Footprints:TO-92_Inline_P1.778mm"
 			(at 237.49 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5923,7 +5923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "STM32_Environmental_Monitor_Footprints:TO-92_Inline_P1.778mm"
 			(at 255.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7307,7 +7307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "STM32_Environmental_Monitor_Footprints:TO-92_Inline_P1.778mm"
 			(at 201.93 104.14 0)
 			(hide yes)
 			(show_name no)
