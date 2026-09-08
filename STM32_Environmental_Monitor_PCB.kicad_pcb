@@ -83,10 +83,10 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
@@ -111,9 +111,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -1332,6 +1332,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "27b08b94-d69b-4bb0-9627-91a9326c3b4a")
 			(effects
 				(font
@@ -2635,7 +2636,8 @@
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "0f4c69e7-d0ad-49e0-ab97-2671437dd660")
+			(hide yes)
+			(uuid "e1f6c21f-f111-4892-9b00-91476d8446be")
 			(effects
 				(font
 					(size 1 1)
@@ -2646,7 +2648,8 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "72d5e4f8-feaa-4dc1-9810-9bbad21fc97b")
+			(hide yes)
+			(uuid "0237c896-7722-4f7f-81bc-82762e16c888")
 			(effects
 				(font
 					(size 1 1)
@@ -2658,7 +2661,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddca453f-d8ad-41e6-87f2-136d5370bb1d")
+			(uuid "5071924c-8bb3-4ebf-ba7e-b6a0cb51b752")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2672,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e57d6feb-b6aa-4851-8af5-12a9fe44524d")
+			(uuid "2ca293a1-5310-4850-8384-8fee1d99f0bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,6 +3203,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8eaf83ef-62f6-477e-8e87-065c9e83b7d5")
 			(effects
 				(font
@@ -3211,6 +3215,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e83bf364-7d1b-4d26-814c-aa34fc732184")
 			(effects
 				(font
@@ -6220,6 +6225,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "69ef0bbe-aae2-4ebf-936a-73b58e471490")
 			(effects
 				(font
