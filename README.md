@@ -10,6 +10,7 @@ This project is the hardware implementation of my previously breadboarded STM32 
   <img width="700" alt="STM32 Environmental Monitor Demo" src="https://github.com/user-attachments/assets/ca2668f1-1ec5-4a4f-b1e0-0834c702fe95" />
 </p>
 
+▶️ **[Watch the full project demo on LinkedIn](https://lnkd.in/p/gfJYUWm9)**
 
 The pushbutton cycles the displayed measurement between temperature, humidity, and pressure.
 
